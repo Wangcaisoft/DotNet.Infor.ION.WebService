@@ -24,7 +24,7 @@ namespace DotNet.WebService
             try
             {
                 // Log the incoming BOD request
-                LogUtil.WriteLog("Received BOD request: " + (bod ?? string.Empty));
+                LogUtil.WriteLog("Received BOD request: " + (bod ?? string.Empty), "BOD");
                 // TODO: add any further processing of the BOD string here
                 return "OK";
             }
