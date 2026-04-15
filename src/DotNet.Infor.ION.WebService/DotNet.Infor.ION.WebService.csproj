@@ -97,11 +97,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Infor.asmx" />
     <Content Include="BOD.asmx" />
     <Content Include="InforBOD.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Infor.asmx.cs">
+      <DependentUpon>Infor.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="XmlProcessor.ashx.cs">
       <DependentUpon>XmlProcessor.ashx</DependentUpon>
     </Compile>
