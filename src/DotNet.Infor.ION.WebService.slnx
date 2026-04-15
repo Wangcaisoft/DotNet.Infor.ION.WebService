@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DotNet.Infor.ION.WebAPI/DotNet.Infor.ION.WebAPI.csproj" Id="7f3bc332-052d-4d7f-82c4-c402e00011e2" />
+  <Project Path="DotNet.Infor.ION.WebService/DotNet.Infor.ION.WebService.csproj" Id="9415ee06-13cf-4f36-b9a5-d9def49ce66d" />
+</Solution>
